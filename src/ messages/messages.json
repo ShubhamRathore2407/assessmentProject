@@ -1,0 +1,177 @@
+{
+  "en": {
+    "general": {
+      "action": "Action",
+      "showMore": "Show more",
+      "showing": "Showing",
+      "search": "Search...",
+      "reset": "Reset Filters",
+      "add": "Add",
+      "submit": "Submit",
+      "confirm": "Confirm",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "noThankYou": "No, Thank you",
+      "edit": "Edit",
+      "save": "Save",
+      "noData": "No data found",
+      "noValue": "-------",
+      "faq": "FAQ",
+      "helpAndSupport": "Help and Support",
+      "noOptionsText": "Your search did not match any option",
+      "yes": "Yes",
+      "no": "No",
+      "loadMore": "Load more...",
+      "showLess": "Show less",
+      "delete": "Delete",
+      "pending": "Pending",
+      "completed": "Completed",
+      "wasSent": "was sent",
+      "risk": "Risk",
+      "reminder": "Reminder",
+      "missingFollowUpAssessment": "Missing Follow-up Assessment",
+      "noAssessmentsCompleted": "No assessments completed in current care",
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "serverError": "Something went wrong! please try again",
+        "invalidPassword": "Password should contain atleast 8 characters, one upper case letter, one lower case letter, one number and one special character"
+      },
+      "userRoles": {
+        "ADMINISTRATOR": "Administrator",
+        "SUPERVISOR": "Supervisor",
+        "CLINICIAN": "Clinician"
+      },
+      "status": {
+        "ACTIVE": "Active",
+        "INACTIVE": "Inactive"
+      },
+      "gender": {
+        "MALE": "Male",
+        "FEMALE": "Female",
+        "AGENDER": "Agender",
+        "BIGENDER": "Bigender",
+        "UNSPECIFIED": "Unspecified",
+        "NON_BINARY": "Non-binary"
+      }
+    },
+    "sidebar": {
+      "menuItems": {
+        "dashboard": "Dashboard",
+        "clients": "Clients",
+        "userManagement": "User Management",
+        "cohort": "Cohort",
+        "outcomeMeasure": "Outcome Measure",
+        "analytics": "Analytics"
+      },
+      "logout": "Log Out"
+    },
+    "header": {
+      "menuItems": {
+        "viewProfile": "View Profile",
+        "clinicDetails": "Clinic Details",
+        "changePassword": "Change Password",
+        "feedbackForm": "Share Your Feedback",
+        "supportForm": "Contact For Support"
+      },
+      "trialPeriod": "Trial end in next {days} days",
+      "upgradeNow": "Upgrade now",
+      "gracePeriod": "Your subscription plan has expired and your account is currently in gracePeriod, please upgrade to continue using the platform."
+    },
+    "authPanel": {
+      "info": "A details-driven platform for capturing mental health treatment outcomes and analytics"
+    },
+    "login": {
+      "heading": "Log in",
+      "subHeading": "Log in with your registered email address.",
+      "form": {
+        "email": "Email address",
+        "password": "Password",
+        "logIn": "Log In",
+        "forgotPassword": "Forgot Password",
+        "signUp": "Sign up",
+        "dontHaveAccount": "Don't have an account?",
+        "errors": {
+          "emailRequired": "Please enter an email address",
+          "passwordRequired": "Please enter a password",
+          "invalidDetails": "Your email address or password is invalid"
+        }
+      }
+    },
+    "forgotPassword": {
+      "heading": "Forgot password",
+      "subHeading": "Enter your registered email address.",
+      "form": {
+        "submitCta": "Send Email",
+        "success": "Password reset link sent!",
+        "errors": {
+          "invalidDetails": "Your email address is invalid"
+        }
+      }
+    },
+    "resetPassword": {
+      "heading": "Reset password",
+      "subHeading": "Use 8-12 characters, combination of uppercase, lowercase letters, numbers, and symbols.",
+      "form": {
+        "confirmPassword": "Confirm password",
+        "submitCta": "Confirm",
+        "success": "Password changed successfully!",
+        "errors": {
+          "invalidDetails": "Your reset password link is invalid"
+        }
+      }
+    },
+    "changePassword": {
+      "heading": "Change Password",
+      "subheading": "Provide the following details",
+      "oldPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword" : "Confirm password",
+      "errors": {
+        "oldPasswordRequired": "Please enter current password",
+        "serverErrors": {
+          "error.modifyUserPassword.invalidOldPassword": "Your current password is inavlid"
+        }
+      },
+      "success": {
+        "text": "Password updated!",
+        "subText": "New password has been saved"
+      }
+    },
+    "clinics": {
+      "heading": "Clinics",
+      "addCta": "Add Clinic",
+      "listing": {
+        "filterBySubscriptionExpiry" : "Filter by subscription expiry date:",
+        "subscriptionExpiryFilter": "Filter by Plan Expiry",
+        "activeSubscriptionPlanFilter": "Filter by Active Subscription Plan",
+        "startDateFilter": "Filter by Subscription Start Date",
+        "endDateFilter": "Filter by Subscription End Date",
+        "from" : "From",
+        "to": "To"
+      },
+      "form": {
+        "addHeading": "Add new clinic",
+        "addSubheading": "Provide the following details",
+        "editHeading": "Edit clinic",
+        "editSubheading": "You can edit the following details",
+        "name": "Name",
+        "userName": "Username",
+        "email": "Email",
+        "activeSubscriptionPlan": "Active Subscription Plan",
+        "subscriptionPlanExpiry": "Subscription Plan Expiry",
+        "errors": {
+          "userNameRequired": "Please enter username",
+          "activeSubscriptionPlanRequired": "Please select the subscription plan",
+          "emailRequired": "Please enter an email address",
+          "subscriptionPlanExpiryRequired": "Please select the subscription expiry date",
+          "serverErrors": {
+
+          }
+        },
+        "success" : {
+          "heading" : "Clinic created successfully."
+        }
+      }
+    }
+  }
+}
