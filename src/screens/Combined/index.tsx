@@ -3,7 +3,7 @@ import { Container, LineChart } from '../../components';
 import { StyledContainer, StyledHeader } from './styles';
 import axios from 'axios';
 import { CRYPTO, mockApiData, POPULATION } from '../../api';
-import { Box, Button, Grid, Tab, Typography } from '@mui/material';
+import { Box, Grid, Tab } from '@mui/material';
 import { TabContext, TabList, TabPanel } from '@mui/lab';
 import Card from '../../components/card';
 

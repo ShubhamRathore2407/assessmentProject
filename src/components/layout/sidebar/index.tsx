@@ -3,7 +3,6 @@ import ChevronLeftRoundedIcon from '@mui/icons-material/ChevronLeftRounded';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import {
   StyledContainer,
-  StyledLogoContainer,
   StyledMenuContainer,
   StyledMenuItemLabel,
   StyledMenuListContainer,
@@ -16,10 +15,7 @@ import { routes } from '../../../utils/routes';
 import ProjectIcon from '@mui/icons-material/Article';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import SchoolIcon from '@mui/icons-material/School';
-import MenuIcon from '@mui/icons-material/Menu';
 import SideDrawer from '../../sideDrawer';
-
-interface Props {}
 
 const menuItems = [
   {
@@ -42,7 +38,7 @@ const menuItems = [
   },
 ];
 
-const Sidebar: React.FC<Props> = ({}) => {
+const Sidebar: React.FC = ({}) => {
   const [showBurger, setShowBurger] = useState(true && window.innerWidth < 767);
   const [sidebarOpen, setSidebarOpen] = useState(window.innerWidth > 1000);
   

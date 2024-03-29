@@ -1,6 +1,5 @@
 import { css, styled } from 'styled-components';
 import { Menu, MenuItem, Typography } from '@mui/material';
-import { respondTo } from '../../../theme/layout';
 import { brand, colors } from '../../../theme/palette';
 import { fontSize, fontWeight } from '../../../theme/typography';
 
